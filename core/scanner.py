@@ -11,6 +11,9 @@ from detectors.sqli import SQLiDetector
 from detectors.xss import XSSDetector
 from detectors.idor import IDORDetector
 from detectors.traversal import PathTraversalDetector
+from detectors.command_injection import CommandInjectionDetector
+from detectors.xxe import XXEDetector
+from detectors.ssrf import SSRFDetector
 from utils.http_client import HTTPClient
 
 class SpectrScanner:
