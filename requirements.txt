@@ -1,0 +1,42 @@
+# SPECTR - Web Vulnerability Scanner Requirements
+# Core HTTP client library
+requests>=2.31.0
+
+# Enhanced HTTP client with better connection pooling
+urllib3>=2.0.0
+
+# Cross-platform colored terminal output
+colorama>=0.4.6
+
+# Better CLI argument parsing (if needed for future enhancements)
+click>=8.1.0
+
+# JSON handling and data validation
+jsonschema>=4.19.0
+
+# For better URL parsing and validation
+validators>=0.22.0
+
+# For concurrent scanning (future enhancement)
+concurrent-futures>=3.1.1
+
+# For better exception handling and logging
+loguru>=0.7.0
+
+# For configuration file support (future enhancement)
+pyyaml>=6.0.1
+
+# For better HTTP response analysis
+beautifulsoup4>=4.12.0
+
+# For advanced regex patterns
+regex>=2023.8.8
+
+# For better time handling
+python-dateutil>=2.8.2
+
+# For progress bars (future enhancement)
+tqdm>=4.66.0
+
+# For better error handling
+rich>=13.5.0
