@@ -10,7 +10,10 @@ class PayloadDatabase:
             'sqli': self._get_sqli_payloads(),
             'xss': self._get_xss_payloads(),
             'idor': self._get_idor_payloads(),
-            'traversal': self._get_traversal_payloads()
+            'traversal': self._get_traversal_payloads(),
+            'command_injection': self._get_command_injection_payloads(),
+            'xxe': self._get_xxe_payloads(),
+            'ssrf': self._get_ssrf_payloads(),
         }
     
     def get_payloads(self, vuln_type):
