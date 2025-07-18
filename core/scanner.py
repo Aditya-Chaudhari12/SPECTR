@@ -14,6 +14,9 @@ from detectors.traversal import PathTraversalDetector
 from detectors.command_injection import CommandInjectionDetector
 from detectors.xxe import XXEDetector
 from detectors.ssrf import SSRFDetector
+from detectors.command_injection import CommandInjectionDetector
+from detectors.xxe import XXEDetector
+from detectors.ssrf import SSRFDetector
 from utils.http_client import HTTPClient
 
 class SpectrScanner:
