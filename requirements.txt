@@ -17,8 +17,8 @@ jsonschema>=4.19.0
 # For better URL parsing and validation
 validators>=0.22.0
 
-# For concurrent scanning (future enhancement)
-concurrent-futures>=3.1.1
+# For concurrent scanning (future enhancement) - built-in in Python 3.2+
+# concurrent-futures>=3.1.1
 
 # For better exception handling and logging
 loguru>=0.7.0
