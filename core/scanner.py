@@ -30,7 +30,10 @@ class SpectrScanner:
             'sqli': SQLiDetector(self.http_client, self.payloads),
             'xss': XSSDetector(self.http_client, self.payloads),
             'idor': IDORDetector(self.http_client, self.payloads),
-            'traversal': PathTraversalDetector(self.http_client, self.payloads)
+            'traversal': PathTraversalDetector(self.http_client, self.payloads),
+            'command_injection': CommandInjectionDetector(self.http_client, self.payloads),
+            'xxe': XXEDetector(self.http_client, self.payloads),
+            'ssrf': SSRFDetector(self.http_client, self.payloads),
         }
         
         self.scan_config = {}
