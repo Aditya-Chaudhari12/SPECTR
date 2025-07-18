@@ -5,7 +5,7 @@ Configuration management for SPECTR vulnerability scanner
 import os
 import json
 import yaml
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 from pathlib import Path
 
 class SpectrConfig:
